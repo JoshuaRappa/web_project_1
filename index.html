@@ -19,19 +19,19 @@
         >
         <ul class="nav__links">
           <li>
-            <a class="nav__link" id="staff">Staff picks</a>
+            <a class="nav__link" href="#staff">Staff picks</a>
           </li>
           <li>
-            <a class="nav__link" id="events">Events</a>
+            <a class="nav__link" href="#events">Events</a>
           </li>
           <li>
-            <a class="nav__link" id="member">Become a member</a>
+            <a class="nav__link" href="#member">Become a member</a>
           </li>
           <li>
-            <a class="nav__link" id="about">About</a>
+            <a class="nav__link" href="#about">About</a>
           </li>
           <li>
-            <a class="nav__link" id="contacts">Contacts</a>
+            <a class="nav__link" href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -43,19 +43,18 @@
       </p>
       <img src="./images/inside_the_library.png" alt="Illustration 'Inside the library'" class="header__image" > 
       <div class="header__footer">
-        <a class="header__link" id="about">About the library &darr;</a>
+        <a class="header__link" href="#about">About the library &darr;</a>
         <p class="header__address">200 Success Avenue, The Town of Practicum</p>
       </div>
     </header>
     </div>
 
     <div class="content">
-      <section class="staff" href="#staff">
+      <section class="staff" id="staff">
         <h2 class="staff__title">Staff picks</h2>
         <p class="staff__subtitle">That our readers love</p>
-        <ul>
-        <li class="card">
-          <div class="card__content">
+        <ul class="card">
+          <li class="card__content">
             <h3 class="card__title">Introduction to Algorithms</h3>
             <p class="card__text">
               The name of this book is self-explanatory; it's a proper
@@ -67,12 +66,12 @@
               Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford
               Stein
             </p>
-          </div>
-        </li>
+          </li>
+        </ul>
 
         <div class="staff__card">
-        <li class="card">
-          <div class="card__content">
+        <ul class="card">
+          <li class="card__content">
             <h3 class="card__title">
               The Structure and Interpretation of Computer Programs (SICP)
             </h3>
@@ -85,11 +84,11 @@
             <p class="card__footer">
               Harold Abelson, Gerald Jay Sussman, Julie Sussman
             </p>
-          </div>
-        </li>
+          </li>
+        </ul>
 
-        <li class="card">
-          <div class="card__content">
+        <ul class="card">
+          <li class="card__content">
             <h3 class="card__title">
               The Clean Coder: A Code of Conduct for Professional Programmers
             </h3>
@@ -101,11 +100,11 @@
               skilled, professional programmer.
             </p>
             <p class="card__footer">Steve McConnell</p>
-          </div>
-        </li>
+          </li>
+        </ul>
 
-        <li class="card">
-          <div class="card__content">
+        <ul class="card">
+          <li class="card__content">
             <h3 class="card__title">
               Code Complete: A Practical Handbook of Software Construction
             </h3>
@@ -117,36 +116,36 @@
               code structure.
             </p>
             <p class="card__footer">Steve McConnell</p>
-          </div>
-        </li>
-      </ul>
+          </li>
+        </ul>
         </div>
       </section>
+    </div>
 
-      <section class="events" href="#events">
+      <section class="events" id="events">
         <nav class="events__content">
           <div class="events__cover">
             <img src="images/cafe.png" class="events__image" alt="picture of a blue cafe">
           </div>
-          <div class="person" class="person_name_feynman">
+          <div class="person person_name_feynman">
             <p class="person__caption">Joan Feynman</p>
-            <img src="images/person_feynman.png" alt="photo of Joan Feynman" class="person__image" class="person__image_size_1">
+            <img src="images/person_feynman.png" alt="photo of Joan Feynman" class="person__image person__image_size_1">
           </div>
-          <div class="person" class="person_name_burbidge">
+          <div class="person person_name_burbidge">
             <p class="person__caption">Margaret Burbidge</p>
-            <img src="images/person_burbidge.png" alt="photo of Margaret Burbidge" class="person__image" class="person__image_size_m">
+            <img src="images/person_burbidge.png" alt="photo of Margaret Burbidge" class="person__image person__image_size_m">
           </div>
-          <div class="person" class="person_name_cannon">
+          <div class="person person_name_cannon">
             <p class="person__caption">Annie Jump Cannon</p>
-            <img src="images/person_cannon.png" alt="photo of Annie Cannon" class="person__image" class="person__image_size_m">
+            <img src="images/person_cannon.png" alt="photo of Annie Cannon" class="person__image person__image_size_m">
           </div>
-          <div class="person" class="person_name_mitchell">
+          <div class="person person_name_mitchell">
             <p class="person__caption">Maria Mitchell</p>
-            <img src="images/person_mitchell.png" alt="photo of Maria Mitchell" class="person__image" class="person__image_size_s">
+            <img src="images/person_mitchell.png" alt="photo of Maria Mitchell" class="person__image person__image_size_s">
           </div>
-          <div class="person" class="person_name_tarter">
+          <div class="person person_name_tarter">
             <p class="person__caption">Jill Tarter</p>
-            <img src="images/person_tarter.png" alt="photo of Jill Tarter" class="person__image" class="person__image_size_s">
+            <img src="images/person_tarter.png" alt="photo of Jill Tarter" class="person__image person__image_size_s">
           </div>
           <h3 class="events__heading">Upcoming events:</h3>
           <h2 class="events__title">
@@ -179,7 +178,7 @@
         </nav>
       </section>
 
-      <section class="membership" href="#member">
+      <section class="membership" id="member">
         <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
@@ -234,7 +233,7 @@
           </li>
         </ul>
       </section>
-      <section class="about" href="#about">
+      <section class="about" id="about">
         <h2 class="about__title">About the library</h2>
         <div class="about__content">
           <p class="about__paragraph">
@@ -275,8 +274,8 @@
           <div class="footer__column_content_social">
             <h3 class="footer__column-heading">Social Media</h3>
             <ul class="footer__list">
-              <li class="footer__list-item" class="footer__column-link"><img src="images/facebook_white.svg" alt="facebook icon">Facebook</li>
-              <li class="footer__list-item" class="footer__column-link"><img src="images/instagram_white.svg" alt="instagram icon">Instagram</li>
+              <li class="footer__list-item footer__column-link"><img src="images/facebook_white.svg" alt="facebook icon">Facebook</li>
+              <li class="footer__list-item footer__column-link"><img src="images/instagram_white.svg" alt="instagram icon">Instagram</li>
             </ul>
           </div>
         </div>
